@@ -22,15 +22,48 @@ body {
   background-color: var(--primary-background-color);
 }
 
-.logo {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 
+ol,
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logo {
+  margin: 24px 0 24px 156px;
+
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
+
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .logo-web {
@@ -41,7 +74,15 @@ body {
   color: #f4f4fd;
 }
 
+.header-nav {
+  margin: 24px 0 24px 76px;
+}
+
 .nav-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+
   list-style-type: none;
 }
 
@@ -58,7 +99,14 @@ body {
   color: var(--primary-hover-color);
 }
 
+.header-adress {
+  margin: 24px 156px 24px auto;
+}
+
 .adress-list {
+  display: flex;
+  gap: 40px;
+
   list-style-type: none;
 }
 
@@ -83,27 +131,34 @@ body {
 
   margin-left: auto;
   margin-right: auto;
+
+  padding: 188px 0;
 }
 
 .hero-header {
-  color: var(--whihte);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
 
+  margin-bottom: 48px;
   text-align: center;
+
+  color: var(--whihte);
 }
 
 .hero-button {
   background-color: #4d5ae5;
   color: var(--whihte);
+  border-radius: 4px;
 
   cursor: pointer;
 
   display: block;
   margin-left: auto;
   margin-right: auto;
+
+  padding: 16px 32px;
 }
 
 .hero-button:hover,
@@ -111,20 +166,31 @@ body {
   background-color: var(--primary-hover-color);
 }
 
+.section.feature {
+  padding: 120px 156px;
+}
+
 .feature-list {
+  display: flex;
+  gap: 8px;
+
   list-style-type: none;
 }
 
 .feature-item > h3 {
-  color: var(--secondary-text-color);
+  margin-bottom: 8px;
 
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
 }
 
 .feature-item > p {
+  padding: 0;
+
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
