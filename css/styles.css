@@ -39,6 +39,11 @@ img {
   display: block;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .container {
   max-width: 1158px;
 
@@ -181,11 +186,6 @@ img {
   background-color: var(--primary-hover-color);
 }
 
-.section-feature > .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .feature-list {
   display: flex;
 
@@ -222,11 +222,6 @@ img {
 
 .section-team {
   background-color: var(--footer-primary-text-color);
-}
-
-.section-team > .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .section-team .container-title {
@@ -278,11 +273,6 @@ img {
 .team-item > p {
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.section-portfolio .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .section-portfolio .container-title {
